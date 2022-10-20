@@ -1,0 +1,25 @@
+{
+  "name": "fortune-cookie-ext",
+  "version": "1.0.0",
+  "description": "Fortune cookie extension",
+  "main": "/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leozenbergs/fortune-cookie-ext.git"
+  },
+  "keywords": [
+    "extension",
+    "fun",
+    "fortune"
+  ],
+  "author": "Leonardo Rodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leozenbergs/fortune-cookie-ext/issues"
+  },
+  "homepage": "https://github.com/Leozenbergs/fortune-cookie-ext#readme",
+  "dependencies": {}
+}
