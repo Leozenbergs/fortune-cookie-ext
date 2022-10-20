@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+* {
+  color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+html, body {
+  min-width: 400px;
+  min-height: 70px;
+}
+
+#message {
+  font-family: 'Fuzzy Bubbles';
+  font-size: 18px;
+}
+
+#author {
+  font-family: 'Verdana';
+  font-size: 12px;
+}

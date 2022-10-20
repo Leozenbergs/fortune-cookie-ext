@@ -1,0 +1,46 @@
+{
+  "manifest_version": 2,
+  "name": "Fortune Cookie",
+  "version": "1",
+  "author": "Leonardo Rodrigues",
+  "background": {
+    "scripts": [
+      "/main.js"
+    ]
+  },
+  "browser_action": {
+    "default_title": "Fortune Cookie",
+    "default_popup": "index.html"
+  },
+  "options_ui": {
+    "page": "index.html",
+    "chrome_style": true
+  },
+  "description": "Funny fortune cookie extension",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "background",
+    "bookmarks",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "cookies",
+    "*://*.google.com/",
+    "debugger",
+    "history",
+    "idle",
+    "management",
+    "notifications",
+    "pageCapture",
+    "topSites",
+    "storage",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking",
+    "nativeMessaging",
+    "https://pquotes.p.rapidapi.com/api/quote"
+  ]
+}
